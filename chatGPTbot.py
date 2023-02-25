@@ -2,7 +2,7 @@ import openai
 import telebot
 
 openai.api_key = "sk-ZJavI6qH1LGrN2322Bb3K49XT3BlbkFJT8M5sddfgdfdweweYMI38kzIHA6z6o"
-bot = telebot.TeleBot("5965873984:AAF2niWb88VUhNJus-Ry0bswqw3442NUw1RXN553VJmyaQ")
+bot = telebot.TeleBot("5532477593:AAGfhjoaM0v8BZ6fvRqWsiLkDNCEVC_GqXI")
 
 
 @bot.message_handler(func=lambda message: True)
